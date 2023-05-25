@@ -1,0 +1,9 @@
+.communitySection {
+  display:flex;
+}
+
+@media (max-width: 679px) {
+  .communitySection {
+    flex-direction: column
+  }
+}

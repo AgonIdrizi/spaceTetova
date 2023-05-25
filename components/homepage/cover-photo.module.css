@@ -1,0 +1,22 @@
+.hapesireText {
+  
+  position: absolute;
+  top: 80px; 
+  left: 100px;
+  max-width: 150px;
+  color: white;
+  font-weight: 700;
+  background-image: 
+    linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red); 
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+  animation: rainbow-animation 600s linear infinite;
+}
+
+
+@keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}
+
